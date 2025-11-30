@@ -1,0 +1,1146 @@
+{
+  "employees": [
+    {
+      "id": "1764520417403",
+      "name": "Bob",
+      "roleId": "1764520273220",
+      "weeklyHours": 40,
+      "dailyMaxHours": 8,
+      "skills": []
+    },
+    {
+      "id": "1764520426465",
+      "name": "Alice",
+      "roleId": "1764520273220",
+      "weeklyHours": 40,
+      "dailyMaxHours": 8,
+      "skills": []
+    },
+    {
+      "id": "1764523391593",
+      "name": "John",
+      "roleId": "1764520273220",
+      "weeklyHours": 40,
+      "dailyMaxHours": 8,
+      "skills": [],
+      "shiftsPerWeek": 5
+    },
+    {
+      "id": "1764525446089",
+      "name": "Rahul",
+      "roleId": "1764525400903",
+      "weeklyHours": 40,
+      "dailyMaxHours": 8,
+      "skills": [],
+      "shiftsPerWeek": 5
+    },
+    {
+      "id": "1764525721045",
+      "name": "Ken",
+      "roleId": "1764525567500",
+      "weeklyHours": 40,
+      "dailyMaxHours": 8,
+      "skills": [],
+      "shiftsPerWeek": 5
+    },
+    {
+      "id": "1764525727977",
+      "name": "Han",
+      "roleId": "1764525567500",
+      "weeklyHours": 40,
+      "dailyMaxHours": 8,
+      "skills": [],
+      "shiftsPerWeek": 5
+    },
+    {
+      "id": "1764525735107",
+      "name": "Ray",
+      "roleId": "1764525567500",
+      "weeklyHours": 40,
+      "dailyMaxHours": 8,
+      "skills": [],
+      "shiftsPerWeek": 5
+    },
+    {
+      "id": "1764525751984",
+      "name": "Benny",
+      "roleId": "1764525567500",
+      "weeklyHours": 32,
+      "dailyMaxHours": 8,
+      "skills": [],
+      "shiftsPerWeek": 4
+    },
+    {
+      "id": "1764525770940",
+      "name": "Raj",
+      "roleId": "1764525567500",
+      "weeklyHours": 40,
+      "dailyMaxHours": 8,
+      "skills": [],
+      "shiftsPerWeek": 5
+    }
+  ],
+  "roles": [
+    {
+      "id": "1764520273220",
+      "name": "Assembly",
+      "minEmployees": 1,
+      "maxEmployees": 1,
+      "weekendRequired": true,
+      "requiredSkills": [],
+      "breakMinutes": 60
+    },
+    {
+      "id": "1764525400903",
+      "name": "Engineer",
+      "weekendRequired": false,
+      "requiredSkills": [],
+      "breakMinutes": 60
+    },
+    {
+      "id": "1764525567500",
+      "name": "Dispatch",
+      "weekendRequired": true,
+      "requiredSkills": [],
+      "breakMinutes": 0
+    }
+  ],
+  "shifts": [
+    {
+      "id": "1764520338702",
+      "name": "First Assembly",
+      "startTime": "06:00",
+      "endTime": "15:00",
+      "roleId": "1764520273220",
+      "daysOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "priority": 50,
+      "hours": 8
+    },
+    {
+      "id": "1764520396640",
+      "name": "Second Assembly",
+      "startTime": "15:00",
+      "endTime": "00:00",
+      "roleId": "1764520273220",
+      "daysOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "priority": 50,
+      "hours": 8
+    },
+    {
+      "id": "1764525421986",
+      "name": "Engineer Day shift",
+      "startTime": "09:00",
+      "endTime": "18:00",
+      "roleId": "1764525400903",
+      "daysOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "hours": 8,
+      "priority": 100
+    },
+    {
+      "id": "1764525620986",
+      "name": "Dispatch One",
+      "startTime": "05:00",
+      "endTime": "11:00",
+      "roleId": "1764525567500",
+      "daysOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "priority": 35,
+      "hours": 6
+    },
+    {
+      "id": "1764525664813",
+      "name": "Dispatch Two",
+      "startTime": "11:00",
+      "endTime": "17:00",
+      "roleId": "1764525567500",
+      "daysOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Thursday"
+      ],
+      "priority": 35,
+      "hours": 6
+    },
+    {
+      "id": "1764525705030",
+      "name": "Dispatch Three",
+      "startTime": "17:00",
+      "endTime": "23:00",
+      "roleId": "1764525567500",
+      "daysOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "priority": 30,
+      "hours": 6
+    }
+  ],
+  "schedule": {
+    "2025-11-30": {
+      "1764525770940": [
+        {
+          "id": "1764525620986",
+          "name": "Dispatch One",
+          "startTime": "05:00",
+          "endTime": "11:00",
+          "roleId": "1764525567500",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "priority": 35,
+          "hours": 6
+        }
+      ],
+      "1764525446089": [
+        {
+          "id": "1764525421986",
+          "name": "Engineer Day shift",
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "roleId": "1764525400903",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "hours": 8,
+          "priority": 100
+        }
+      ],
+      "1764523391593": [
+        {
+          "id": "1764520396640",
+          "name": "Second Assembly",
+          "startTime": "15:00",
+          "endTime": "00:00",
+          "roleId": "1764520273220",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "priority": 50,
+          "hours": 8
+        }
+      ],
+      "1764520417403": [
+        {
+          "id": "1764520338702",
+          "name": "First Assembly",
+          "startTime": "06:00",
+          "endTime": "15:00",
+          "roleId": "1764520273220",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "priority": 50,
+          "hours": 8
+        }
+      ],
+      "1764525735107": [
+        {
+          "id": "1764525664813",
+          "name": "Dispatch Two",
+          "startTime": "11:00",
+          "endTime": "17:00",
+          "roleId": "1764525567500",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Friday",
+            "Saturday",
+            "Sunday",
+            "Thursday"
+          ],
+          "priority": 35,
+          "hours": 6
+        }
+      ],
+      "1764520426465": [
+        {
+          "id": "1764520338702",
+          "name": "First Assembly",
+          "startTime": "06:00",
+          "endTime": "15:00",
+          "roleId": "1764520273220",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "priority": 50,
+          "hours": 8
+        }
+      ],
+      "1764525721045": [
+        {
+          "id": "1764525705030",
+          "name": "Dispatch Three",
+          "startTime": "17:00",
+          "endTime": "23:00",
+          "roleId": "1764525567500",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "priority": 30,
+          "hours": 6
+        }
+      ],
+      "1764525727977": [
+        {
+          "id": "1764525705030",
+          "name": "Dispatch Three",
+          "startTime": "17:00",
+          "endTime": "23:00",
+          "roleId": "1764525567500",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "priority": 30,
+          "hours": 6
+        }
+      ]
+    },
+    "2025-12-01": {
+      "1764525727977": [
+        {
+          "id": "1764525664813",
+          "name": "Dispatch Two",
+          "startTime": "11:00",
+          "endTime": "17:00",
+          "roleId": "1764525567500",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Friday",
+            "Saturday",
+            "Sunday",
+            "Thursday"
+          ],
+          "priority": 35,
+          "hours": 6
+        }
+      ],
+      "1764525751984": [
+        {
+          "id": "1764525620986",
+          "name": "Dispatch One",
+          "startTime": "05:00",
+          "endTime": "11:00",
+          "roleId": "1764525567500",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "priority": 35,
+          "hours": 6
+        }
+      ],
+      "1764525721045": [
+        {
+          "id": "1764525705030",
+          "name": "Dispatch Three",
+          "startTime": "17:00",
+          "endTime": "23:00",
+          "roleId": "1764525567500",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "priority": 30,
+          "hours": 6
+        }
+      ],
+      "1764525446089": [
+        {
+          "id": "1764525421986",
+          "name": "Engineer Day shift",
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "roleId": "1764525400903",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "hours": 8,
+          "priority": 100
+        }
+      ],
+      "1764523391593": [
+        {
+          "id": "1764520338702",
+          "name": "First Assembly",
+          "startTime": "06:00",
+          "endTime": "15:00",
+          "roleId": "1764520273220",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "priority": 50,
+          "hours": 8
+        }
+      ],
+      "1764520417403": [
+        {
+          "id": "1764520396640",
+          "name": "Second Assembly",
+          "startTime": "15:00",
+          "endTime": "00:00",
+          "roleId": "1764520273220",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "priority": 50,
+          "hours": 8
+        }
+      ],
+      "1764520426465": [
+        {
+          "id": "1764520338702",
+          "name": "First Assembly",
+          "startTime": "06:00",
+          "endTime": "15:00",
+          "roleId": "1764520273220",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "priority": 50,
+          "hours": 8
+        }
+      ]
+    },
+    "2025-12-02": {
+      "1764525770940": [
+        {
+          "id": "1764525664813",
+          "name": "Dispatch Two",
+          "startTime": "11:00",
+          "endTime": "17:00",
+          "roleId": "1764525567500",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Friday",
+            "Saturday",
+            "Sunday",
+            "Thursday"
+          ],
+          "priority": 35,
+          "hours": 6
+        }
+      ],
+      "1764525446089": [
+        {
+          "id": "1764525421986",
+          "name": "Engineer Day shift",
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "roleId": "1764525400903",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "hours": 8,
+          "priority": 100
+        }
+      ],
+      "1764523391593": [
+        {
+          "id": "1764520338702",
+          "name": "First Assembly",
+          "startTime": "06:00",
+          "endTime": "15:00",
+          "roleId": "1764520273220",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "priority": 50,
+          "hours": 8
+        }
+      ],
+      "1764525735107": [
+        {
+          "id": "1764525620986",
+          "name": "Dispatch One",
+          "startTime": "05:00",
+          "endTime": "11:00",
+          "roleId": "1764525567500",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "priority": 35,
+          "hours": 6
+        }
+      ],
+      "1764520417403": [
+        {
+          "id": "1764520396640",
+          "name": "Second Assembly",
+          "startTime": "15:00",
+          "endTime": "00:00",
+          "roleId": "1764520273220",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "priority": 50,
+          "hours": 8
+        }
+      ],
+      "1764525727977": [
+        {
+          "id": "1764525705030",
+          "name": "Dispatch Three",
+          "startTime": "17:00",
+          "endTime": "23:00",
+          "roleId": "1764525567500",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "priority": 30,
+          "hours": 6
+        }
+      ]
+    },
+    "2025-12-03": {
+      "1764525751984": [
+        {
+          "id": "1764525664813",
+          "name": "Dispatch Two",
+          "startTime": "11:00",
+          "endTime": "17:00",
+          "roleId": "1764525567500",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Friday",
+            "Saturday",
+            "Sunday",
+            "Thursday"
+          ],
+          "priority": 35,
+          "hours": 6
+        }
+      ],
+      "1764523391593": [
+        {
+          "id": "1764520338702",
+          "name": "First Assembly",
+          "startTime": "06:00",
+          "endTime": "15:00",
+          "roleId": "1764520273220",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "priority": 50,
+          "hours": 8
+        }
+      ],
+      "1764520417403": [
+        {
+          "id": "1764520396640",
+          "name": "Second Assembly",
+          "startTime": "15:00",
+          "endTime": "00:00",
+          "roleId": "1764520273220",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "priority": 50,
+          "hours": 8
+        }
+      ],
+      "1764525735107": [
+        {
+          "id": "1764525705030",
+          "name": "Dispatch Three",
+          "startTime": "17:00",
+          "endTime": "23:00",
+          "roleId": "1764525567500",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "priority": 30,
+          "hours": 6
+        }
+      ],
+      "1764525446089": [
+        {
+          "id": "1764525421986",
+          "name": "Engineer Day shift",
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "roleId": "1764525400903",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "hours": 8,
+          "priority": 100
+        }
+      ],
+      "1764525727977": [
+        {
+          "id": "1764525620986",
+          "name": "Dispatch One",
+          "startTime": "05:00",
+          "endTime": "11:00",
+          "roleId": "1764525567500",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "priority": 35,
+          "hours": 6
+        }
+      ]
+    },
+    "2025-12-04": {
+      "1764525721045": [
+        {
+          "id": "1764525620986",
+          "name": "Dispatch One",
+          "startTime": "05:00",
+          "endTime": "11:00",
+          "roleId": "1764525567500",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "priority": 35,
+          "hours": 6
+        }
+      ],
+      "1764525446089": [
+        {
+          "id": "1764525421986",
+          "name": "Engineer Day shift",
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "roleId": "1764525400903",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "hours": 8,
+          "priority": 100
+        }
+      ],
+      "1764523391593": [
+        {
+          "id": "1764520338702",
+          "name": "First Assembly",
+          "startTime": "06:00",
+          "endTime": "15:00",
+          "roleId": "1764520273220",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "priority": 50,
+          "hours": 8
+        }
+      ],
+      "1764525770940": [
+        {
+          "id": "1764525620986",
+          "name": "Dispatch One",
+          "startTime": "05:00",
+          "endTime": "11:00",
+          "roleId": "1764525567500",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "priority": 35,
+          "hours": 6
+        }
+      ],
+      "1764525751984": [
+        {
+          "id": "1764525664813",
+          "name": "Dispatch Two",
+          "startTime": "11:00",
+          "endTime": "17:00",
+          "roleId": "1764525567500",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Friday",
+            "Saturday",
+            "Sunday",
+            "Thursday"
+          ],
+          "priority": 35,
+          "hours": 6
+        }
+      ],
+      "1764520417403": [
+        {
+          "id": "1764520396640",
+          "name": "Second Assembly",
+          "startTime": "15:00",
+          "endTime": "00:00",
+          "roleId": "1764520273220",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "priority": 50,
+          "hours": 8
+        }
+      ],
+      "1764525727977": [
+        {
+          "id": "1764525705030",
+          "name": "Dispatch Three",
+          "startTime": "17:00",
+          "endTime": "23:00",
+          "roleId": "1764525567500",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "priority": 30,
+          "hours": 6
+        }
+      ],
+      "1764525735107": [
+        {
+          "id": "1764525664813",
+          "name": "Dispatch Two",
+          "startTime": "11:00",
+          "endTime": "17:00",
+          "roleId": "1764525567500",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Friday",
+            "Saturday",
+            "Sunday",
+            "Thursday"
+          ],
+          "priority": 35,
+          "hours": 6
+        }
+      ]
+    },
+    "2025-12-05": {
+      "1764520426465": [
+        {
+          "id": "1764520396640",
+          "name": "Second Assembly",
+          "startTime": "15:00",
+          "endTime": "00:00",
+          "roleId": "1764520273220",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "priority": 50,
+          "hours": 8
+        }
+      ],
+      "1764525770940": [
+        {
+          "id": "1764525620986",
+          "name": "Dispatch One",
+          "startTime": "05:00",
+          "endTime": "11:00",
+          "roleId": "1764525567500",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "priority": 35,
+          "hours": 6
+        }
+      ],
+      "1764525721045": [
+        {
+          "id": "1764525705030",
+          "name": "Dispatch Three",
+          "startTime": "17:00",
+          "endTime": "23:00",
+          "roleId": "1764525567500",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "priority": 30,
+          "hours": 6
+        }
+      ],
+      "1764523391593": [
+        {
+          "id": "1764520338702",
+          "name": "First Assembly",
+          "startTime": "06:00",
+          "endTime": "15:00",
+          "roleId": "1764520273220",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "priority": 50,
+          "hours": 8
+        }
+      ],
+      "1764520417403": [
+        {
+          "id": "1764520396640",
+          "name": "Second Assembly",
+          "startTime": "15:00",
+          "endTime": "00:00",
+          "roleId": "1764520273220",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "priority": 50,
+          "hours": 8
+        }
+      ],
+      "1764525751984": [
+        {
+          "id": "1764525664813",
+          "name": "Dispatch Two",
+          "startTime": "11:00",
+          "endTime": "17:00",
+          "roleId": "1764525567500",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Friday",
+            "Saturday",
+            "Sunday",
+            "Thursday"
+          ],
+          "priority": 35,
+          "hours": 6
+        }
+      ]
+    },
+    "2025-12-06": {
+      "1764525770940": [
+        {
+          "id": "1764525705030",
+          "name": "Dispatch Three",
+          "startTime": "17:00",
+          "endTime": "23:00",
+          "roleId": "1764525567500",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "priority": 30,
+          "hours": 6
+        }
+      ],
+      "1764525735107": [
+        {
+          "id": "1764525620986",
+          "name": "Dispatch One",
+          "startTime": "05:00",
+          "endTime": "11:00",
+          "roleId": "1764525567500",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "priority": 35,
+          "hours": 6
+        }
+      ],
+      "1764525721045": [
+        {
+          "id": "1764525664813",
+          "name": "Dispatch Two",
+          "startTime": "11:00",
+          "endTime": "17:00",
+          "roleId": "1764525567500",
+          "daysOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Friday",
+            "Saturday",
+            "Sunday",
+            "Thursday"
+          ],
+          "priority": 35,
+          "hours": 6
+        }
+      ]
+    }
+  },
+  "attendance": {},
+  "shiftHistory": {
+    "1764520417403": {
+      "1764520338702": 599,
+      "1764520396640": 413
+    },
+    "1764520426465": {
+      "1764520338702": 608,
+      "1764520396640": 412
+    },
+    "1764523391593": {
+      "1764520338702": 412,
+      "1764520396640": 365
+    },
+    "1764525446089": {
+      "1764525421986": 490
+    },
+    "1764525751984": {
+      "1764525705030": 105,
+      "1764525620986": 130,
+      "1764525664813": 149
+    },
+    "1764525727977": {
+      "1764525620986": 175,
+      "1764525664813": 160,
+      "1764525705030": 145
+    },
+    "1764525721045": {
+      "1764525664813": 160,
+      "1764525620986": 176,
+      "1764525705030": 144
+    },
+    "1764525770940": {
+      "1764525664813": 160,
+      "1764525620986": 177,
+      "1764525705030": 143
+    },
+    "1764525735107": {
+      "1764525620986": 176,
+      "1764525664813": 161,
+      "1764525705030": 143
+    }
+  },
+  "leaveRequests": {
+    "1764520426465-2025-12-04": {
+      "employeeId": "1764520426465",
+      "date": "2025-12-04",
+      "status": "approved"
+    },
+    "1764520426465-2025-12-02": {
+      "employeeId": "1764520426465",
+      "date": "2025-12-02",
+      "status": "approved"
+    },
+    "1764520426465-2025-12-03": {
+      "employeeId": "1764520426465",
+      "date": "2025-12-03",
+      "status": "approved"
+    }
+  },
+  "exportedAt": "2025-11-30T19:01:27.765Z"
+}
